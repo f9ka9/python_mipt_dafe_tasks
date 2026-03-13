@@ -3,7 +3,7 @@ import numpy as np
 
 def get_dominant_color_info(img, t=5):
     if t < 1:
-        raise ValueError("threshold must be positive")
+        raise ValueError
     p = img.ravel()
     c = [np.sum(p == i) for i in range(256)]
     m, b = 0, 0
