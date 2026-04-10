@@ -38,9 +38,9 @@ def draw(before: np.ndarray, after: np.ndarray, save_path: str) -> None:
 
 
 def main():
-    data = load_json("lesson07/data/medic_data.json")
+    data = load_json("data/medic_data.json")
     before, after = build_counts(data)
-    draw(before, after, "lesson07/data/result.png")
+    draw(before, after, "data/result.png")
 
 
 if __name__ == "__main__":
