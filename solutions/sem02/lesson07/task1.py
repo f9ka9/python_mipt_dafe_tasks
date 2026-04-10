@@ -1,7 +1,7 @@
-from typing import Any
-import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.pyplot as plt
 
+from typing import Any
 
 class ShapeMismatchError(Exception):
     pass
